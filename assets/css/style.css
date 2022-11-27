@@ -1,5 +1,6 @@
 /* Universal Selector */
 * {
+    /* reset default ccs style to ensure the window edges are flush with the html body */
     box-sizing: border-box;
     padding: 0;
     margin: 0;   
@@ -7,11 +8,13 @@
 
 /* Element selectors */
 body {
+    /* set font for body except header & footer */
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
+    /* sets colour and font for header semantic html */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,11 +22,14 @@ header {
 }
 
 header h1 {
+    /* set size of company logo "Horiseon"  */
     display: inline-block;
     font-size: 48px;
 }
 
 footer {
+    /* sets font for footer semantic html*/
+    /* ensure footer appears beneath article and main */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -31,10 +37,12 @@ footer {
 }
 
 footer h2 {
+    /* set font size for footer h2 text */
     font-size: 20px;
 }
 
 nav {
+    /* floats nav to the right of company logo in header */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -52,6 +60,7 @@ nav ul li {
 }
 
 a {
+    /* set color of a tags - utilized once in nav */
     color: #ffffff;
     text-decoration: none;
 }
@@ -62,6 +71,7 @@ p {
 
 /* Class Selectors */
 .seo {
+    /* creates a diff color shade for seo in company logo within header */
     color: #d9dcd6;
 }
 
@@ -75,22 +85,26 @@ p {
 }
 
 .float-left {
+    /* make images in section-content float left*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* make images in section-content float right*/
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* set main content display type */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .section-content {
+    /* set section-content height with respect to main */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -99,6 +113,7 @@ p {
 }
 
 .section-content img {
+    /* set section-content images max height */
     max-height: 200px;
 }
 
