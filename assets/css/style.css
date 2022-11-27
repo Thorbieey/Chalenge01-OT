@@ -21,8 +21,8 @@ header {
     color: #ffffff;
 }
 
-header h1 {
-    /* set size of company logo "Horiseon"  */
+h1 {
+    /* set size of main page heading, company logo "Horiseon"  */
     display: inline-block;
     font-size: 48px;
 }
@@ -36,7 +36,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     /* set font size for footer h2 text */
     font-size: 20px;
 }
