@@ -43,7 +43,7 @@ Explore the Horiseon site using the navigation bar (as shown below)
 
 ![Navigation bar](./assets/images/challenge1-demo-01.png)
 
-Also, find below images showing the current view of top, mid and bottom of the page
+Also, find below screenshots showing demos of the top, mid and bottom of the webpage
 
 ![Horiseon website demo showing top section of page](./assets/images/challenge1-demo-02.png)
 ![Horiseon website demo showing mid section of page](./assets/images/challenge1-demo-03.png)
