@@ -1,12 +1,5 @@
 # Challenge 01 - Code Refractor - Horiseon
 
-## Table of Contents
-
-* [Description](#description)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-
 ## Description 
 
 ### User Story
@@ -36,6 +29,13 @@ SO THAT our own site is optimized for search engines such as google.
 
 * The URL of the GitHub repository: 
 [https://github.com/Thorbieey/Challenge-01-Code-Refractor-Horiseon.git/](https://github.com/Thorbieey/Challenge-01-Code-Refractor-Horiseon.git)
+
+## Table of Contents
+
+* [Description](#description)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
 ## Usage 
 
