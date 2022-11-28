@@ -32,12 +32,10 @@ SO THAT our own site is optimized for search engines such as google.
 ### Deployed Application
 
 * The URL of the deployed application:
-```
-``` 
+[https://thorbieey.github.io/Challenge-01-Code-Refractor-Horiseon/](https://thorbieey.github.io/Challenge-01-Code-Refractor-Horiseon/)
 
 * The URL of the GitHub repository: 
-```
-```
+[https://github.com/Thorbieey/Challenge-01-Code-Refractor-Horiseon.git/](https://github.com/Thorbieey/Challenge-01-Code-Refractor-Horiseon.git)
 
 ## Usage 
 
