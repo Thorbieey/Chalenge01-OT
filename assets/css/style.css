@@ -81,6 +81,7 @@ p {
 }
 
 .hero {
+    /* set hero (i.e., image at top of webpage) to cover screen in adequate width/height */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -123,6 +124,7 @@ p {
 }
 
 .section-content h2 {
+    /* set section-content font size */
     margin-bottom: 20px;
     font-size: 36px;
 }
