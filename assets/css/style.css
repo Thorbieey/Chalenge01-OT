@@ -43,6 +43,7 @@ footer h4 {
 
 nav {
     /* floats nav to the right of company logo in header */
+    /* set font-family of nav to match body */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -50,22 +51,14 @@ nav {
     font-size: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 a {
-    /* set color of a tags - utilized once in nav */
+    /* set color of all a tags - utilized once in nav */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* set all p tags font size */
     font-size: 16px;
 }
 
@@ -73,6 +66,17 @@ p {
 .seo {
     /* creates a diff color shade for seo in company logo within header */
     color: #d9dcd6;
+}
+
+.nav-list-container {
+    /* set nav list to appear without bullets or numbers */
+    list-style-type: none;
+}
+
+.nav-list {
+    /* set nav list to appear side by side */
+    display: inline-block;
+    margin-left: 25px;
 }
 
 .hero {
