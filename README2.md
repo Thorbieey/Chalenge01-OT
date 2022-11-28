@@ -1,4 +1,4 @@
-# First Boot Camp Challenge- Code Refractor Horiseon
+# Challenge 01 - Code Refractor - Horiseon
 
 ## Description 
 
@@ -35,6 +35,7 @@ If your README is very long, add a table of contents to make it easy for users t
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
+* [Review](#review)
 
 
 ## Installation
@@ -44,22 +45,30 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+Explore the Horiseon site using the navigation bar (as shown below)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![Navigation bar](./assets/images/challenge1-demo-01.png)
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+Also, find below images showing the current view of top and bottom half of the website
 
+![Horiseon website demo showing top of page](./assets/images/challenge1-demo-02.png)
+![Horiseon website demo showing middle of page](./assets/images/challenge1-demo-03.png)
+![Horiseon website demo showing bottom of page](./assets/images/challenge1-demo-04.png)
 
 ## Credits
 
-* [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
-* [Image `alt` attributes](https://www.w3schools.com/tags/att_img_alt.asp)
-
+* [Read up on Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
+* [Read up on Image `alt` attributes](https://www.w3schools.com/tags/att_img_alt.asp)
+* [Learn how to enable github pages](https://www.youtube.com/watch?v=P4Mu1t5rIXg&ab_channel=DanielSullivan)
+* [Master basic markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [Choosing an open source licence](https://choosealicense.com/)
 
 ## License
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license
 
+## Review
+
+* The URL of the deployed application: 
+
+* The URL of the GitHub repository: 
