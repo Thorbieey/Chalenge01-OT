@@ -128,6 +128,7 @@ p {
 }
 
 .benefits {
+    /* float company benefit article to right and set width/background*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -138,17 +139,20 @@ p {
 }
 
 .benefit-article {
+    /* set article text colour and margin */
     margin-bottom: 32px;
     color: #ffffff;
 
 }
 
 .benefit-article h3 {
+    /* set article heading text to be aligned to centre */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-article img {
+    /* change article image display to block and set image width/centre */
     display: block;
     margin: 10px auto;
     max-width: 150px;
