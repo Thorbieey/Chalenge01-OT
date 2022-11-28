@@ -1,39 +1,49 @@
 /* Universal Selector */
 * {
+    /* reset default ccs style to ensure the window edges are flush with the html body */
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0;   
 }
 
 /* Element selectors */
 body {
+    /* set font for body except header & footer */
     background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
+    /* sets colour and font for header semantic html */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 {
+h1 {
+    /* set size of main page heading, company logo "Horiseon"  */
     display: inline-block;
     font-size: 48px;
 }
 
 footer {
+    /* sets font for footer semantic html*/
+    /* ensure footer appears beneath article and main */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
+    /* set font size for footer h2 text */
     font-size: 20px;
 }
 
 nav {
+    /* floats nav to the right of company logo in header */
+    /* set font-family of nav to match body */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -41,27 +51,33 @@ nav {
     font-size: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 a {
+    /* set color of all a tags - utilized once in nav */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* set all p tags font size */
     font-size: 16px;
 }
 
 /* Class Selectors */
 .seo {
+    /* creates a diff color shade for seo in company logo within header */
     color: #d9dcd6;
+}
+
+.nav-list-container {
+    /* set nav list to appear without bullets or numbers */
+    list-style-type: none;
+}
+
+.nav-list {
+    /* list items in navigation bar */
+    /* set nav list to appear side by side */
+    display: inline-block;
+    margin-left: 25px;
 }
 
 .hero {
@@ -74,63 +90,70 @@ p {
 }
 
 .float-left {
+    /* make images in section-content float left*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* make images in section-content float right*/
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* set main content display type */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-article {
-    margin-bottom: 32px;
-    color: #ffffff;
-
-}
-
-.benefit-article h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-article img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 .section-content {
+    /* set section-content height with respect to main */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
 .section-content img {
+    /* set section-content images max height */
     max-height: 200px;
 }
 
 .section-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.benefits {
+    /* float company benefit article to right and set width/background*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+
+.benefit-article {
+    /* set article text colour and margin */
+    margin-bottom: 32px;
+    color: #ffffff;
+
+}
+
+.benefit-article h3 {
+    /* set article heading text to be aligned to centre */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-article img {
+    /* change article image display to block and set image width/centre */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
